@@ -1,0 +1,25 @@
+{
+  "name": "weixin-eol",
+  "private": true,
+  "version": "1.0.0",
+  "description": "End of life for WeiXin",
+  "scripts": {
+    "build": "parcel build --public-url /weixin-eol src/index.html",
+    "serve": "parcel serve src/index.html",
+    "start": "pnpm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Xu Yiming",
+    "email": "xuyiming.open@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xymopen/weixin-eol"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-nightly.2400",
+    "parcel": "2.0.0-nightly.776"
+  }
+}
