@@ -19,7 +19,7 @@
   },
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-nightly.2400",
-    "parcel": "2.0.0-nightly.776"
+    "@parcel/transformer-image": "^2.16.4",
+    "parcel": "2.16.4"
   }
 }
