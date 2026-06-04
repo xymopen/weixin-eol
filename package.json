@@ -6,7 +6,7 @@
   "scripts": {
     "build": "parcel build --public-url /weixin-eol src/index.html",
     "serve": "parcel serve src/index.html",
-    "start": "pnpm run serve",
+    "start": "node --run=serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
